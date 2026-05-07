@@ -1,5 +1,6 @@
 import { useAdmin } from '../context/AdminContext';
 import profileImage from '../assets/myphoto.png';
+import cvFile from '../assets/cv.docx';
 
 export function About() {
     const { portfolioData } = useAdmin();
@@ -15,9 +16,13 @@ export function About() {
                         <p className="text-lg leading-relaxed font-mono text-gray-300 whitespace-pre-line mb-6 max-w-xl">
                             {portfolioData.aboutText}
                         </p>
-                        <button className="px-6 py-3 border border-white/30 text-white rounded-lg hover:border-white hover:bg-white/5 transition-all duration-300 font-mono text-sm">
+                        <a
+                            href={cvFile}
+                            download
+                            className="inline-flex px-10 py-5 border bg-blue-700 border-white/30 text-white rounded-lg hover:border-white hover:bg-white/5 transition-all duration-300 font-mono text-sm"
+                        >
                             Download CV ↓
-                        </button>
+                        </a>
                     </div>
 
                     <div className="flex justify-center reveal-up reveal-delay-2">

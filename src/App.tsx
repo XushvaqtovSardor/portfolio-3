@@ -16,7 +16,6 @@ function AppContent() {
   const { isPanelOpen, closePanel } = useAdmin()
 
   useEffect(() => {
-    // Listen for admin panel toggle
     const handleKeyPress = (e: KeyboardEvent) => {
       if (e.key === 'Escape' && isPanelOpen) {
         closePanel()

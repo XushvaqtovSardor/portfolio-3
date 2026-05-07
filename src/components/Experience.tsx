@@ -12,18 +12,15 @@ export function Experience() {
                 <div className="max-w-4xl mx-auto space-y-8">
                     {portfolioData.experiences.map((exp, index) => (
                         <div key={exp.id} className="relative reveal-up" style={{ animationDelay: `${index * 80}ms` }}>
-                            {/* Timeline line */}
                             {index !== portfolioData.experiences.length - 1 && (
                                 <div className="absolute left-2 top-10 w-0.5 h-24 bg-linear-to-b from-green-400/50 to-transparent"></div>
                             )}
 
                             <div className="flex gap-6">
-                                {/* Timeline dot */}
                                 <div className="flex flex-col items-center pt-1">
                                     <div className="w-4 h-4 bg-green-400 rounded-full border-4 border-black"></div>
                                 </div>
 
-                                {/* Content */}
                                 <div className="flex-1 bg-gray-900/20 border border-gray-700/50 rounded-lg p-6 hover:border-green-400/50 hover:bg-green-500/5 transition-all duration-300 hover-lift">
                                     <div className="mb-3">
                                         <h3 className="text-2xl font-bold font-mono text-white">{exp.company}</h3>

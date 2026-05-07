@@ -4,7 +4,7 @@ export function Footer() {
             <div className="site-container">
                 <div className="grid md:grid-cols-4 gap-8 mb-8">
                     <div className="reveal-up">
-                        <h3 className="font-mono font-bold text-white mb-4">Sarvar.dev</h3>
+                        <h3 className="font-mono font-bold text-white mb-4">Sardor.dev</h3>
                         <p className="text-sm font-mono text-gray-500">Full Stack Developer & Designer</p>
                     </div>
 
@@ -36,7 +36,7 @@ export function Footer() {
                 </div>
 
                 <div className="border-t border-gray-900/50 pt-8 text-center text-xs font-mono text-gray-600">
-                    <p>&copy; 2025 Sarvar. All rights reserved.</p>
+                    <p>&copy; 2025 Sardor. All rights reserved.</p>
                 </div>
             </div>
         </footer>

@@ -35,7 +35,7 @@ export function Header() {
             <header className="fixed top-0 w-full bg-black/85 backdrop-blur-md border-b border-gray-900/50 z-50 transition-all duration-300">
                 <div className="site-container py-4 flex justify-between items-center">
                     <div className="flex items-center gap-1 font-mono font-bold text-xl">
-                        <span className="text-white">Sarvar</span>
+                        <span className="text-white">Sardor</span>
                         <span className="text-green-400">.dev</span>
                     </div>
 
